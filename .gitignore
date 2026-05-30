@@ -1,0 +1,20 @@
+# environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data (large, reproducible from source)
+data/raw/*.csv
+data/interim/*.parquet
+data/interim/*.csv
+data/processed/*.parquet
+data/processed/*.csv
+
+# models
+models/*.pkl
+models/*.joblib
+
+# OS
+.DS_Store

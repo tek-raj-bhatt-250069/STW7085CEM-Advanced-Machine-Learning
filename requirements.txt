@@ -1,0 +1,27 @@
+# --- core data stack ---
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+pyarrow>=14.0
+
+# --- visualisation ---
+matplotlib>=3.7
+seaborn>=0.13
+
+# --- machine learning ---
+scikit-learn>=1.3,<2.0
+gpflow>=2.9
+tensorflow>=2.13,<2.16
+tensorflow-probability>=0.20
+
+# --- jupyter ---
+jupyterlab>=4.0
+ipykernel>=6.25
+ipywidgets>=8.0
+
+# --- model interpretation / metrics ---
+shap>=0.43
+scipy>=1.10
+
+# --- development ---
+black>=23.0
+isort>=5.12

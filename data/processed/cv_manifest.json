@@ -1,0 +1,271 @@
+{
+  "generated_at": "2026-05-27T20:31:32",
+  "holdout_season": "2025-26",
+  "initial_training_seasons": [
+    "2015-16",
+    "2016-17"
+  ],
+  "feature_columns": [
+    "sunset_tempc",
+    "sunset_dewpoint_depr_c",
+    "sunset_pressure_hpa",
+    "sunset_wind_speed_ms",
+    "sunset_visibility_m",
+    "predawn_tempc",
+    "predawn_dewpoint_depr_c",
+    "predawn_pressure_hpa",
+    "overnight_temp_drop_c",
+    "overnight_dewpoint_depr_drop_c",
+    "overnight_pressure_change_hpa",
+    "night_mean_wind_speed_ms",
+    "night_calm_fraction",
+    "night_mean_sky_cover",
+    "night_clear_fraction",
+    "night_mist_observed",
+    "night_fog_observed",
+    "doy_sin",
+    "doy_cos"
+  ],
+  "target_regression": "target_min_vis_m",
+  "target_classification": "target_class",
+  "class_names": {
+    "0": "Normal",
+    "1": "Delays",
+    "2": "Diversions"
+  },
+  "n_folds": 8,
+  "train_pool_size": 1410,
+  "holdout": {
+    "season": "2025-26",
+    "size": 151,
+    "start": "2025-10-01",
+    "end": "2026-02-28",
+    "class_counts": {
+      "Normal": 116,
+      "Delays": 33,
+      "Diversions": 2
+    }
+  },
+  "folds": [
+    {
+      "fold_id": 1,
+      "train_seasons": [
+        "2015-16",
+        "2016-17"
+      ],
+      "test_season": "2017-18",
+      "train_size": 204,
+      "test_size": 151,
+      "train_start": "2016-01-02",
+      "train_end": "2017-02-28",
+      "test_start": "2017-10-01",
+      "test_end": "2018-02-28",
+      "train_class_counts": {
+        "Normal": 91,
+        "Delays": 97,
+        "Diversions": 16
+      },
+      "test_class_counts": {
+        "Normal": 89,
+        "Delays": 54,
+        "Diversions": 8
+      }
+    },
+    {
+      "fold_id": 2,
+      "train_seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18"
+      ],
+      "test_season": "2018-19",
+      "train_size": 355,
+      "test_size": 149,
+      "train_start": "2016-01-02",
+      "train_end": "2018-02-28",
+      "test_start": "2018-10-01",
+      "test_end": "2019-02-28",
+      "train_class_counts": {
+        "Normal": 180,
+        "Delays": 151,
+        "Diversions": 24
+      },
+      "test_class_counts": {
+        "Normal": 80,
+        "Delays": 64,
+        "Diversions": 5
+      }
+    },
+    {
+      "fold_id": 3,
+      "train_seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "test_season": "2019-20",
+      "train_size": 504,
+      "test_size": 152,
+      "train_start": "2016-01-02",
+      "train_end": "2019-02-28",
+      "test_start": "2019-10-01",
+      "test_end": "2020-02-29",
+      "train_class_counts": {
+        "Normal": 260,
+        "Delays": 215,
+        "Diversions": 29
+      },
+      "test_class_counts": {
+        "Normal": 99,
+        "Delays": 51,
+        "Diversions": 2
+      }
+    },
+    {
+      "fold_id": 4,
+      "train_seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20"
+      ],
+      "test_season": "2020-21",
+      "train_size": 656,
+      "test_size": 150,
+      "train_start": "2016-01-02",
+      "train_end": "2020-02-29",
+      "test_start": "2020-10-01",
+      "test_end": "2021-02-28",
+      "train_class_counts": {
+        "Normal": 359,
+        "Delays": 266,
+        "Diversions": 31
+      },
+      "test_class_counts": {
+        "Normal": 131,
+        "Delays": 17,
+        "Diversions": 2
+      }
+    },
+    {
+      "fold_id": 5,
+      "train_seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "test_season": "2021-22",
+      "train_size": 806,
+      "test_size": 150,
+      "train_start": "2016-01-02",
+      "train_end": "2021-02-28",
+      "test_start": "2021-10-01",
+      "test_end": "2022-02-28",
+      "train_class_counts": {
+        "Normal": 490,
+        "Delays": 283,
+        "Diversions": 33
+      },
+      "test_class_counts": {
+        "Normal": 117,
+        "Delays": 29,
+        "Diversions": 4
+      }
+    },
+    {
+      "fold_id": 6,
+      "train_seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "test_season": "2022-23",
+      "train_size": 956,
+      "test_size": 151,
+      "train_start": "2016-01-02",
+      "train_end": "2022-02-28",
+      "test_start": "2022-10-01",
+      "test_end": "2023-02-28",
+      "train_class_counts": {
+        "Normal": 607,
+        "Delays": 312,
+        "Diversions": 37
+      },
+      "test_class_counts": {
+        "Normal": 131,
+        "Delays": 17,
+        "Diversions": 3
+      }
+    },
+    {
+      "fold_id": 7,
+      "train_seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "test_season": "2023-24",
+      "train_size": 1107,
+      "test_size": 152,
+      "train_start": "2016-01-02",
+      "train_end": "2023-02-28",
+      "test_start": "2023-10-01",
+      "test_end": "2024-02-29",
+      "train_class_counts": {
+        "Normal": 738,
+        "Delays": 329,
+        "Diversions": 40
+      },
+      "test_class_counts": {
+        "Normal": 143,
+        "Delays": 8,
+        "Diversions": 1
+      }
+    },
+    {
+      "fold_id": 8,
+      "train_seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24"
+      ],
+      "test_season": "2024-25",
+      "train_size": 1259,
+      "test_size": 151,
+      "train_start": "2016-01-02",
+      "train_end": "2024-02-29",
+      "test_start": "2024-10-01",
+      "test_end": "2025-02-28",
+      "train_class_counts": {
+        "Normal": 881,
+        "Delays": 337,
+        "Diversions": 41
+      },
+      "test_class_counts": {
+        "Normal": 132,
+        "Delays": 19,
+        "Diversions": 0
+      }
+    }
+  ]
+}
