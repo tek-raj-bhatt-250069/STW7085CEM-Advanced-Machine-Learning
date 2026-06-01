@@ -8,7 +8,7 @@
 ![Module](https://img.shields.io/badge/Coventry-STW7085CEM-purple.svg)
 
 > Coursework submission for STW7085CEM Advanced Machine Learning, Task 1, MSc Data Science and Computational Intelligence, Softwarica College of IT and E-commerce (Coventry University). 
-Authors: Tek Raj Bhatta (Student ID 250069, CUID 16544288), Sachin Manadhar ( Student ID 250137).
+<br>Authors: Tek Raj Bhatta (Student ID 250069, CUID 16544288), Sachin Manadhar ( Student ID 250137).
 
 ---
 
