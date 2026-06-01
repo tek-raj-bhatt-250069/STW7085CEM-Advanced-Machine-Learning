@@ -241,6 +241,7 @@ This work was submitted in partial fulfilment of the requirements for the MSc Da
 ## Contact
 
 Tek Raj Bhatta — [250069@softwarica.edu.np](mailto:250069@softwarica.edu.np) — [GitHub @tek-raj-bhatta-250069](https://github.com/tek-raj-bhatta-250069)
+Sachin Manandhar - [250137@softwarica.edu.np](mailto:250137@softwarica.edu.np)
 
 ## Licence
 
