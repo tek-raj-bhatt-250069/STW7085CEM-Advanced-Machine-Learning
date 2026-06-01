@@ -219,17 +219,6 @@ A short list of the methodological choices that matter for reproducibility:
 
 ---
 
-## Paper
-
-The accompanying conference paper (6 pages, IEEE conference format) is in `reports/paper/`:
-
-- `STW7085CEM_Task1_Paper_TekRajBhatta.tex` — LaTeX source
-- `STW7085CEM_Task1_Paper_TekRajBhatta.pdf` — compiled PDF
-
-A mapping from each figure and table in the paper to the script that produces it is included in `reports/paper/figure_provenance.md`.
-
----
-
 ## Acknowledgements
 
 METAR data are provided by the [Iowa Environmental Mesonet](https://mesonet.agron.iastate.edu/) at Iowa State University, with original source NOAA NCEI ISD. Operational visibility minima follow ICAO Doc 8168 PANS-OPS (6th ed., 2020). The GP implementation builds on [GPflow](https://www.gpflow.org/); the Random Forest baseline uses [scikit-learn](https://scikit-learn.org/).
