@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Module](https://img.shields.io/badge/Coventry-STW7085CEM-purple.svg)
 
-> Coursework submission for STW7085CEM Advanced Machine Learning, Task 1, MSc Data Science and Computational Intelligence, Softwarica College of IT and E-commerce (Coventry University). Author: Tek Raj Bhatta (Student ID 250069, CUID 16544288).
+> Coursework submission for STW7085CEM Advanced Machine Learning, Task 1, MSc Data Science and Computational Intelligence, Softwarica College of IT and E-commerce (Coventry University). Authors: Tek Raj Bhatta (Student ID 250069, CUID 16544288), Sachin Manadhar ( Student ID 250137).
 
 ---
 
@@ -226,25 +226,6 @@ The accompanying conference paper (6 pages, IEEE conference format) is in `repor
 - `STW7085CEM_Task1_Paper_TekRajBhatta.pdf` — compiled PDF
 
 A mapping from each figure and table in the paper to the script that produces it is included in `reports/paper/figure_provenance.md`.
-
----
-
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@misc{bhatta2026vnktfog,
-  author       = {Tek Raj Bhatta},
-  title        = {{Bayesian Forecasting of Low-Visibility Events at Tribhuvan
-                   International Airport: A Gaussian Process Approach to
-                   Winter Fog Diversion Risk in Nepal}},
-  year         = {2026},
-  howpublished = {Coursework submission, STW7085CEM Advanced Machine Learning,
-                  Coventry University / Softwarica College of IT and E-commerce},
-  url          = {https://github.com/tek-raj-bhatta-250069/STW7085CEM-Advanced-Machine-Learning}
-}
-```
 
 ---
 
